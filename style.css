@@ -1,0 +1,25 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.card {
+   /* background-color: aqua; */
+   width: 300px;
+   margin: 0 auto;
+   border: 1px solid #ccc;
+   padding: 50px 10px;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.image {
+   width: 100%;
+}
+
+.image:hover {
+   transform: scale(1.1);
+   transition: all 0.5s ease-in-out;
+}
